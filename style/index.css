@@ -31,9 +31,77 @@ html {
 
 body {
     font-size: 3.0rem;
-    line-height: 1.5rem;
+    line-height: 50px;
 }
 
-.image {
-    width: 50rem;
+header {
+    background-color: bisque;
+    padding: 2%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.top-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-image {
+    padding: 50px;
+}
+
+.top-row {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    text-align: center;
+}
+
+.bottom-row {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    text-align: center;
+}
+
+.img {
+    padding: 20px;
+}
+
+
+footer {
+    background-color: bisque;
+    text-align: center;
+}
+
+button {
+    background-color: black;
+
+}
+
+button:hover {
+    background-color: whitesmoke;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+button a:hover {
+    color: black;
+}
+
+h1 {
+    font-family: Impact;
+    font-size: 75px;
+    padding: 10px;
+    margin: 10px;
 }

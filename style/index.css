@@ -135,15 +135,21 @@ h2 {
         padding: 2%;
     }
     
-    nav {
+    .top {
         display: flex;
-        flex-direction: column;
         justify-content: center;
     }
+
 
     .button {
         align-self: center;
         width: 25%;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .text {
